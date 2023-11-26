@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.784)
+}
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+
+
+
+.box1{
+    background-image: url(./images/dog1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 38.5%;
+    
+
+}
+
+.box1heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.073);
+    position: absolute;
+    top: 75px;
+    width: 38.35%;
+    gap: 1rem
+}
+
+.logo{
+    width: 100px;
+}
+.headingname{
+    font-size: 5.5rem;
+    font-family: norse;
+    font-weight: bolder;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    font-weight: bold;   
+    flex-wrap: wrap;
+}
+p{
+    width: 75%;
+    margin-left: 3rem;
+    
+}
+.greyboxes{
+    height: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.dothis{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+    
+}
+.formcontentbox{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    gap: 6rem;
+}
+form{
+    margin-left: 3rem;
+}
+.formbox{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 179, 0);
+    
+}
+.fbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+label{
+    font-size: smaller;
+    letter-spacing: 2.5px;
+}
+input{
+    appearance: none;
+    background-color: rgba(0, 0, 0, 0.092);
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    
+    
+    
+}
+input:focus{
+    outline: none;
+}
+input:focus:valid{
+    background-color: orange;
+    box-shadow: 1px 3px 10px orange;
+    border: 2px solid greenyellow;
+}
+input:focus:invalid{
+    background-color: rgba(255, 68, 0, 0.045);
+    border-color: orangered;
+}
+
+
+
+button{
+    padding: 9px 30px;
+    font-size: large;
+    background-color: orange;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px; 
+    margin-bottom: 1rem;
+}
+.accounttext{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: x-large;
+}
+span{
+    color: orange
+}
